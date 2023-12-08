@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Munsaf-Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7c1682072b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="/images/munsaf-high-resolution-logo-removebg-preview.png" alt="logo" class="logo">
+                <ul id="side-menu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Developer</p>
+                <h1>Hi, I'm <span>Munsaf</span> Ansari <br>from Goa-India</h1>
+            </div>
+        </div>
+    </div>
+    <!----------------------------------About Section--------------------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/images/munsaf.jpg" alt="my-image" class="my-image">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Desiring to work in a positive environment where I can learn, enhance my skills and perform development in the field of my interest and help in betterment of the organisation as well as society.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contains active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contains" id="experience">
+                        <ul>
+                            <li><span>2023 - Current</span><br>Designing font end pages</li>
+                            <li><span>2021-2022</span><br>Jr Software Professional Consultant at Inbetween Software Development Panjim - Goa</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contains" id="education">
+                        <ul>
+                            <li><span>2020</span><br>BE from Shree Rayeshwar Institute of engineering & Information Technology - Shiroda</li>
+                            <li><span>2016</span><br>PES Higher Secondary School - Ponda</li>
+                            <li><span>2014</span><br>MEFS Fatima High School - Ponda</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--  -------------------------------Services--------------------------------------  -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-html5"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisilor cum odio ea.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <h2>CSS</h2>
+                    <p>Lorem ipsum dolor sit ameg elit. Alias temporibus at ratione perspiciatis nesciunt nostrum! odio ea.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-js"></i>
+                    <h2>Java Script</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing el ratione perspiciatis nesci ea.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+            
+            
+        </div>
+    </div>
+
+    <!-- ------------------------------------Portfolio--------------------------------   -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="/images/work1.jpg" alt="work-1-image">
+                    <div class="layer">
+                        <h3>Mobile App</h3>
+                        <p>The app connects you to the latented people around the globe.Download it from the play store.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/images/Work2.png" alt="work-2-image">
+                    <div class="layer">
+                        <h3>Web App</h3>
+                        <p>The app connects you to the latented people around the globe.Download it from the play store.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/images/work3.jpg" alt="work-3-image">
+                    <div class="layer">
+                        <h3>UX/UI Design</h3>
+                        <p>The app connects you to the latented people around the globe.Download it from the play store.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#" class="btn">See more</a>
+
+        </div>
+    </div>
+    <!-- --------------------Contact-------------------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> munsaf1998@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 9028466572</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/RESUME.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="emial" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ 2023 - Designed by <i class="fa-solid fa-heart"></i>Munsaf</p>
+        </div>
+    </div>
+
+
+
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontains=document.getElementsByClassName("tab-contains");
+
+
+        function opentab(tabname){
+            /For removing the contents by clicking on them/ 
+
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+            for(tabcontain of tabcontains){
+                tabcontain.classList.remove("active-tab")
+            }
+
+            /Showing the contents by clicking on them/ 
+            event.currentTarget.classList.add("active-link");
+
+            /for displaying content/ 
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+
+    </script>
+    <!-- -----------------------------Script for onclick menu options-------------------------------------------- -->
+    <script>
+
+        var sidemenu = document.getElementById("side-menu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu(){
+            sidemenu.style.right = "-130px";
+        }
+
+    </script>
+    
+</body>
+</html>
